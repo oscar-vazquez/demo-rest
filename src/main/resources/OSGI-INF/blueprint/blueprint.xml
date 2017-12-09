@@ -9,6 +9,10 @@
                     http://cxf.apache.org/blueprint/jaxrs http://cxf.apache.org/schemas/blueprint/jaxrs.xsd
                     http://cxf.apache.org/blueprint/core http://cxf.apache.org/schemas/blueprint/core.xsd">
 
+    <!--
+    Acá se define el path del servicio relativo al path de los ws en el servidor,
+    y se indica cual es la clase que lo implementa
+    -->
     <jaxrs:server id="helloService" address="/hello">
         <jaxrs:serviceBeans>
             <bean class="edesur.demo.HelloService" />

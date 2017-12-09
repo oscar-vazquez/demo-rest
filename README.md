@@ -2,6 +2,12 @@
 
 El clásico _Hello World_ como webservice rest con respuesta en formato json.
 
+En la clase con la cual se implementa el webservice, por medio de anotaciones se indica todo
+lo relativo al servicio, el path del mismo y cuales métodos se mapean a los verbos HTTP.
+
+En el archivo [blueprint.xml](src/main/resources/OSGI-INF/blueprint/blueprint.xml) se declara el
+servicio y la clase que lo implementa.
+
 ## Compilar e instalar
 En la raiz del proyecto ejecutar
 
